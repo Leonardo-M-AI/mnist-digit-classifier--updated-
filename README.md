@@ -50,3 +50,17 @@ jupyter notebook notebook/mnist_classifier.ipynb
 
 ## License
 MIT
+
+## Business Impact
+
+A model achieving ~98.2% accuracy on handwritten digit recognition
+can automate data entry in banking (cheque processing), postal services
+(address sorting), and healthcare (form digitisation), reducing manual
+review costs by an estimated 35-60% on digit-heavy workflows.
+
+## What I Would Do Next
+
+- Replace the MLP with a CNN to push accuracy above 99%
+- Test on real-world noisy data (not just clean MNIST)
+- Deploy the model as a REST API using FastAPI
+- Compare MLP vs CNN vs SVM performance in a single notebook
